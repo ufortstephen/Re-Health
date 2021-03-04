@@ -1,0 +1,79 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.nav-2{
+    font-size: x-large;
+}
+.navbar{
+    font-size: medium;
+}
+.car-one{
+    background: url(../images/doc2.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 0px 160px;
+    padding-top: 200px;
+}
+.car-two{
+    background: url(../images/lab1.jpg) no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 0px 160px;
+    padding-top: 200px;
+
+}
+.car-three{
+    background: url(../images/lab2.png) no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 190px 160px;
+    padding-top: 200px;
+
+}
+.hero-success{
+        color: #21A188;
+        font-weight: 700;
+}
+.btn{
+    padding: 5px 20px;
+    margin-right: 6px;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.row-height{
+    text-align: center;
+}
+.row-height div{
+    padding: 50px 0px;
+}
+.row-height div i{
+    font-size: 4rem;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.ione{
+    background-color: #025502;
+}
+.end{
+    text-align: end;
+    
+}
+.end-text{
+    padding-top: 100px;
+}
+.RandD{
+    background: url(../images/dooc4.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.657);
+    height: 400px;
+}
