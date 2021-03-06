@@ -19,6 +19,9 @@
 .container-fluid{
     max-width: 100%;
 }
+.right{
+    margin-right: 10px;
+}
 .navbar {
     position: relative;
     display: -ms-flexbox;
@@ -143,7 +146,6 @@
 .card{
     height: max-content;
     padding-bottom:0px;
-    margin-right: 19px;
     border: none;
 }
  .four img{
@@ -180,3 +182,137 @@
     width: max-content;
     
 }
+
+
+@media screen and (max-width:984px){
+    .con-pad{
+        padding: 0px;
+    }
+    .arrow-down{
+        display: none;
+    }
+    .nav-2 {
+        font-size: x-large;
+        padding: 10px;
+    }
+    .navbar{
+        padding: 0px;
+    }
+    
+    .car-one{
+       
+        padding: 50px 15px;
+    }
+    .car-two{
+       
+        padding: 50px 15px;
+    }
+    .car-three{
+       
+        padding: 50px 15px;
+    }
+    .row-height div {
+        padding: 20px 0px;
+    }
+    .right{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .hero-success {
+        font-size: revert;
+    }
+    .comes{
+        font-size: smaller;
+    }
+    .doc{
+        display: none;
+    }
+    .end-text{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .w-80{
+        width: 100%;
+    }
+    .lab{
+        width: 100%;
+        margin: auto;
+        font-size: 1rem;
+    }
+    
+    .RandD h5{
+        font-size: 1rem;
+    }
+    
+
+}
+
+@media screen and (max-width:572px){
+    .right{
+        margin-right: 0px;
+    }
+    .car-one button{
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: smaller;
+    }
+    .car-two button{
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: smaller;
+    }
+    .car-three button{
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: smaller;
+    }
+    .end-text button{
+        padding: 5px 10px;
+        font-size: smaller;
+        
+    }
+   .right button{
+       padding: 5px 10px;
+       font-size: smaller;
+   }
+   .left button{
+       padding: 5px 10px;
+       font-size: smaller;
+   }
+
+
+}
+
+@media screen and (max-width:425px){
+    .hero-success {
+        font-size: 30px;
+    }
+    .comes{
+        font-size:20px;
+        
+    }
+    .icon-div div i{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width:425px){
+    .top-text{
+        display: none;
+    }
+    .set{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    
+}
+
+
+
